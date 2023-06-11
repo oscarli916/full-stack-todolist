@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Oscar <oscar_li916@yahoo.com.hk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+strawberry-graphql = {extras = ["fastapi"], version = "^0.177.3"}
+uvicorn = "^0.22.0"
+black = "^23.3.0"
+websockets = "^11.0.3"
+alembic = "^1.11.1"
+python-dotenv = "^1.0.0"
+psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
